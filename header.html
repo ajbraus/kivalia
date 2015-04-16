@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="" href="/"><img src="images/kivalia_logo.png" width="180px" class='logo' /></a> 
+        <!-- <b style='position: relative;top: 3px;'>1.800.234.2345</b> -->
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/how-it-works.html">How it Works</a></li>
+            <li><a href="/active-management.html">Active Management</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#login">Client Login</a></li>
+        </ul>
+    </div>
+    <!--/.navbar-collapse -->
+</div>
+
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Login</h4>
+      </div>
+      <div class="modal-body">
+        <form action="" method="">
+            <div class='form-group'>
+                <lable>Email</label>
+                <input name="user" type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class='form-group'>
+                <lable>Password</label>
+                <input type="password" id="passwordfield" placeholder="Password" class="form-control">
+            </div>
+            <div class="text-right">
+                <a href="#" class='text-muted'>Forgot Password?</a>
+            </div>
+            <hr>
+            <p>
+                <button class="btn btn-primary btn-block login" type="submit">Login</button>
+            </p>
+            Not a Kivalia Client? <a href="/subscription-new.html" class='text-muted'>Subscribe Today</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
