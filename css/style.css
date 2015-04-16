@@ -1,0 +1,160 @@
+/*BLUE #1899D0*/
+/*TRIAD: #d01858*/
+
+label {
+  margin-bottom:2px;
+}
+.form-group {
+  margin-bottom: 5px;
+}
+.well {
+    color:#252525;
+    background-color: rgba(255,255,255, 0.9);
+}
+
+.navbar {
+  margin-bottom:0;
+  border-radius: 0;
+  border-bottom:1px solid #eee;
+}
+
+.navbar-nav > li > a {
+  padding-top: 22px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  padding: 10px 8px 1px 8px;
+  position: relative;
+  bottom: 4px;
+}
+
+section.slider {
+  background: #1899D0;
+}
+.calculate-form {
+  margin-top:40px;
+}
+
+.modal-dialog {
+  margin-top: 100px;
+}
+
+.modal-header h3 {
+  font-weight: 600;
+}
+
+.modal-backdrop {
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.jumbotron{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("https://unsplash.imgix.net/reserve/rVvIisyfQwOhZv35PPhh_unsplash.jpg?q=75&fm=jpg&s=18e60f281c1b5277e2f206874d9f0274");
+    /*https://ununsplash.imgix.net/uploads/141223808515744db9995/3361b5e1?q=75&fm=jpg&s=04607c34357b70db74394f2fd8a6db7f*/
+    color: #ffffff;
+    background-size: cover;
+    background-position-y: -180px;
+    background-attachment: fixed;
+    margin-bottom:0;
+}
+
+@media only screen and (min-width : 992px) {
+  .col-md-shim {
+    margin-left:30px;
+  }
+   }
+
+.arrow-icon {
+  margin-top: 60px;
+  font-size: 40px;
+}
+
+section.gray{
+    padding: 30px 0;
+    background: #eeeeee;
+}
+
+.progress {
+  height:40px;
+  line-height: 40px;
+}
+.progress-bar {
+  font-size:14px;
+  font-weight:normal;
+}
+
+.panel-title {
+  font-size:170%;
+}
+
+.margin-top {
+  margin-top:10px;
+}
+
+.man-background {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.25), 
+    rgba(0, 0, 0, 0.25)
+  ),
+  url("https://download.unsplash.com/photo-1423753623104-718aaace6772");
+  color: #ffffff;
+  background-size: cover;
+  margin-bottom:0;
+  height:800px;
+}
+
+.report-background {
+  height:500px;
+}
+
+dl {
+  font-size:130%;
+}
+dd {
+  margin-bottom:10px;
+}
+.subscription-panel {
+}
+.subscription-panel .panel-heading {
+  font-weight: bold;
+    font-size: 17px;
+}
+
+.no-hover:hover {
+  background-color : #5cb85c !important;
+  cursor: default !important;
+  box-shadow: none;
+  border-color: #4cae4c;
+}
+
+.vert-space {
+  margin:50px;
+}
+
+footer div.footer-ribbon {
+  background: #1899D0;
+}
+
+.icon-light {
+  color:#1899D0;
+}
+
+.icon-white {
+  color:white;
+}
+
+.page-header {
+  margin-top:30px;
+}
+
+.btn-primary {
+  background:#d01858;
+}
+
+.btn-primary:hover {
+  background:#eb195f;
+}

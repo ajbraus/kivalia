@@ -1,0 +1,28 @@
+make all responsive
+
+"Self Managed"
+"Kivalia Managed"
+Add bar graph 
+safety lock
+need the popup to see more give email
+start your subscripyion to see recomended allocations for as low as $8 per month.
+
+subscription#new/edit form
+subscription#show page
+Edit fund page
+
+advice email
+reminder email
+
+DONE customize navbar
+DONE portfolio page 
+DONE active managment page
+DONE help modal
+DONE how-it-works page
+DONE email template
+DONE welcome/confirmation
+DONE Add Gaurentee to index
+DONE about-us page
+
+Notes:
+Intentionally not putting fb like and linkedin share buttons - these give a sense of looseness and lack of privacy that should not be mixed with financial products. Should instead have a little safetly lock everywhere.
