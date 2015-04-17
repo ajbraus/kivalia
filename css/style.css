@@ -261,3 +261,11 @@ Licensed under MIT
   border-bottom: 1px solid #eee;
   padding-bottom: 15px;
 }
+
+table {
+  font-size:90%;
+}
+
+.font-weight-normal {
+  font-weight:normal;
+}
