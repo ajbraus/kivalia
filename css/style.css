@@ -56,8 +56,9 @@ section.slider {
       rgba(0, 0, 0, 0.25), 
       rgba(0, 0, 0, 0.25)
     ),
-    url("https://unsplash.imgix.net/reserve/rVvIisyfQwOhZv35PPhh_unsplash.jpg?q=75&fm=jpg&s=18e60f281c1b5277e2f206874d9f0274");
+    url("../images/path.jpg");
     /*https://ununsplash.imgix.net/uploads/141223808515744db9995/3361b5e1?q=75&fm=jpg&s=04607c34357b70db74394f2fd8a6db7f*/
+    /*https://unsplash.imgix.net/reserve/rVvIisyfQwOhZv35PPhh_unsplash.jpg?q=75&fm=jpg&s=18e60f281c1b5277e2f206874d9f0274*/
     color: #ffffff;
     background-size: cover;
     background-position-y: -180px;
@@ -268,19 +269,6 @@ table {
 
 .font-weight-normal {
   font-weight:normal;
-}
-
-.glass::before {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-image: url('pelican-blurry.jpg');
-    background-size: cover;
-    content: ' ';
-    opacity: 0.4;
-}
-.glass {
-    background-color: white;
 }
 
 .become-a-member {
