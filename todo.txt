@@ -1,14 +1,11 @@
 make all responsive
 
 portfolio funds/recommended -> clean up table
-subscribe to plan flow
-membership flow
+New/Edit funds page
+Account page
 
-begin membership as low as $8
 bar graph instead of pie chart
 safety lock
-
-New/Edit funds page
 
 advice email
 reminder email
@@ -25,3 +22,6 @@ DONE about-us page
 
 Notes:
 Intentionally not putting fb like and linkedin share buttons - these give a sense of looseness and lack of privacy that should not be mixed with financial products. Should instead have a little safetly lock everywhere.
+
+DONE subscribe to plan flow
+DONE membership flow
