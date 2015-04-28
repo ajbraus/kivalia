@@ -30,21 +30,55 @@
 
 <div class="navbar" id="header"></div>
 <div class="container">
+    <br>
     <div class="row">
-        <div class='col-sm-2 col-sm-offset-1'>
+        <div class='col-lg-3 col-sm-3 col-lg-offset-1'>
             <img src='http://fineprintnyc.com/images/blog/history-of-logos/google/google-logo.png' width="140px" class="pull-left"/>
         </div>
-        <div class='col-sm-5 text-center'>
+        <div class='col-lg-4 col-sm-6 text-center'>
             <br>
             <h4><b>Google Inc. 401(k) Savings Plan</b></h4>
         </div>
-        <div class='col-sm-3'>
+        <div class='col-lg-3 col-sm-3 text-right'>
             <br>
-            <p><a href="/subscription-new.html" class="btn btn-primary pull-right">Subscribe to Plan for Free</a></p>
+            <p><a href="#" data-toggle="modal" data-target="#subscribe"class="btn btn-primary">Subscribe* to Plan for Free</a></p>
+            <p class='text-muted'>*Receive Quarterly Updates</p>
+        </div>
+        <div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Subscribe to Plan</h4>
+              </div>
+              <div class="modal-body">
+                <form action="" method="">
+                    <div class='form-group'>
+                        <lable>Email</label>
+                        <input name="user" type="text" placeholder="sample@domain.com" class="form-control">
+                    </div>
+                    <div class='form-group'>
+                        <lable>Password</label>
+                        <input name="user" type="password" placeholder="Password" class="form-control">
+                    </div>
+                    <div class='form-group'>
+                        <lable>Password Confirm</label>
+                        <input name="user" type="password" placeholder="Password Confirm" class="form-control">
+                    </div>
+                    <hr>
+                    <p>
+                        <button class="btn btn-primary btn-block login" type="submit">Subscribe for Free</button>
+                    </p>
+                    Want Kivalia Advice? <a href="/membership-new.html" class='text-muted'>Become a Member</a>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
+    <br>
     <div class="row">
-        <div class="col-sm-10 col-sm-offset-1">
+        <div class="col-lg-10 col-lg-offset-1">
             <div class="tabbable-panel">
                 <div class="tabbable-line">
                     <ul class="nav nav-tabs ">
