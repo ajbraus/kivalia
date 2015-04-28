@@ -34,87 +34,81 @@
   <div class='col-sm-10 col-sm-offset-1'>
     <h1>Payment Information</h1>
     <p class='lead'>Kivalia keeps all of your data private and secure. All our plans come with the Kivalia 100% Customer Satisfaction Gaurentee. </p>
-    <br>
-        <form>
-        <div class="row">
-          <div class='col-sm-6 col-sm-offset-3'>
-              <form class="form-horizontal">
-                <fieldset>
-                  <div id="legend">
-                    <legend class="">Credit Card Information</legend>
+  </div>
+  <form>
+    <div class='col-sm-5 col-sm-offset-1'>
+          <form class="form-horizontal">
+            <fieldset>
+              <!-- Name -->
+              <div class="form-group">
+                <label  for="username">Card Holder's Name</label>
+                <div class="controls">
+                  <input type="text" id="username" name="username" placeholder="" class="form-control">
+                </div>
+              </div>
+         
+              <!-- Card Number -->
+              <div class="form-group">
+                <label for="email">Card Number</label>
+                <div class="controls">
+                  <input type="text" id="email" name="email" placeholder="" class="form-control">
+                </div>
+              </div>
+         
+              <!-- Expiry-->
+              <div class="form-group">
+                <label for="password">Card Expiry Date</label>
+                <div class="controls row">
+                  <div class='col-xs-7'>
+                    <select class="form-control" name="expiry_month" id="expiry_month">
+                      <option></option>
+                      <option value="01">Jan (01)</option>
+                      <option value="02">Feb (02)</option>
+                      <option value="03">Mar (03)</option>
+                      <option value="04">Apr (04)</option>
+                      <option value="05">May (05)</option>
+                      <option value="06">June (06)</option>
+                      <option value="07">July (07)</option>
+                      <option value="08">Aug (08)</option>
+                      <option value="09">Sep (09)</option>
+                      <option value="10">Oct (10)</option>1
+                      <option value="11">Nov (11)</option>
+                      <option value="12">Dec (12)</option>
+                    </select>
                   </div>
-             
-                  <!-- Name -->
-                  <div class="form-group">
-                    <label  for="username">Card Holder's Name</label>
-                    <div class="controls">
-                      <input type="text" id="username" name="username" placeholder="" class="form-control">
-                    </div>
+                  <div class='col-xs-5'>
+                    <select class="form-control" name="expiry_year">
+                      <option value="13">2013</option>
+                      <option value="14">2014</option>
+                      <option value="15">2015</option>
+                      <option value="16">2016</option>
+                      <option value="17">2017</option>
+                      <option value="18">2018</option>
+                      <option value="19">2019</option>
+                      <option value="20">2020</option>
+                      <option value="21">2021</option>
+                      <option value="22">2022</option>
+                      <option value="23">2023</option>
+                    </select>
                   </div>
-             
-                  <!-- Card Number -->
-                  <div class="form-group">
-                    <label for="email">Card Number</label>
-                    <div class="controls">
-                      <input type="text" id="email" name="email" placeholder="" class="form-control">
-                    </div>
-                  </div>
-             
-                  <!-- Expiry-->
-                  <div class="form-group">
-                    <label for="password">Card Expiry Date</label>
-                    <div class="controls row">
-                      <div class='col-xs-7'>
-                        <select class="form-control" name="expiry_month" id="expiry_month">
-                          <option></option>
-                          <option value="01">Jan (01)</option>
-                          <option value="02">Feb (02)</option>
-                          <option value="03">Mar (03)</option>
-                          <option value="04">Apr (04)</option>
-                          <option value="05">May (05)</option>
-                          <option value="06">June (06)</option>
-                          <option value="07">July (07)</option>
-                          <option value="08">Aug (08)</option>
-                          <option value="09">Sep (09)</option>
-                          <option value="10">Oct (10)</option>1
-                          <option value="11">Nov (11)</option>
-                          <option value="12">Dec (12)</option>
-                        </select>
-                      </div>
-                      <div class='col-xs-5'>
-                        <select class="form-control" name="expiry_year">
-                          <option value="13">2013</option>
-                          <option value="14">2014</option>
-                          <option value="15">2015</option>
-                          <option value="16">2016</option>
-                          <option value="17">2017</option>
-                          <option value="18">2018</option>
-                          <option value="19">2019</option>
-                          <option value="20">2020</option>
-                          <option value="21">2021</option>
-                          <option value="22">2022</option>
-                          <option value="23">2023</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-             
-                  <!-- CVV -->
-                  <div class="form-group">
-                    <label  for="password_confirm">Card CVV</label>
-                    <div class="controls">
-                      <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="form-control">
-                    </div>
-                  </div>
-             
-                </fieldset>
-              </form>
-          </div>
+                </div>
+              </div>
+         
+              <!-- CVV -->
+              <div class="form-group">
+                <label  for="password_confirm">Card CVV</label>
+                <div class="controls">
+                  <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="form-control">
+                </div>
+              </div>
+         
+            </fieldset>
+          </form>
         </div>
-        <br>
-        <a class='btn btn-default pull-left' href="/membership-sign-up.html">Back - Sign Up</a>
-        <a class='btn btn-primary pull-right' href="/membership-review.html">Next - Review & Confirm</a>
-        </form>
+        <div class='col-sm-8 col-sm-offset-1'>
+      <br>
+      <a class='btn btn-default pull-left' href="/membership-sign-up.html">Back - Sign Up</a>
+      <a class='btn btn-primary pull-right' href="/portfolio-show.html">Confirm & Submit</a>
       </div>
     </div>
     <br>

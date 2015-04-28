@@ -284,9 +284,8 @@ table {
 }
 
 .become-a-member {
-  position: absolute;
   background: white;
   width: 100%;
   border: 1px solid #eee;
-  padding: 100px 0;
+  padding: 40px 0;
 }
