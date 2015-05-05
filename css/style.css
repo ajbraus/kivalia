@@ -277,3 +277,8 @@ table {
   border: 1px solid #eee;
   padding: 40px 0;
 }
+
+.input-form {
+  margin-top: 15px;
+  margin-left: 30px;
+}
