@@ -1,6 +1,6 @@
 make all responsive
 
-portfolio funds/recommended -> clean up table
+portfolio funds/recommended -> clean up tables
 New/Edit funds page
 Account page
 
@@ -25,3 +25,4 @@ Intentionally not putting fb like and linkedin share buttons - these give a sens
 
 DONE subscribe to plan flow
 DONE membership flow
+
