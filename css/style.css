@@ -304,3 +304,7 @@ table {
 .arial {
   font-family: arial;
 }
+
+.btn-primary span {
+  font-weight: normal;
+}
