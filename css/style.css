@@ -290,3 +290,11 @@ table {
 .tabbable-line > .nav-tabs > li > a {
   font-size: 16px;
 }
+
+.blue-row {
+  position: relative;
+  bottom: 20px;
+  padding: 5px 40px;
+  background: #1899D0;
+  color: white;
+}
