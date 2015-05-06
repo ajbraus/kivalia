@@ -282,3 +282,11 @@ table {
   margin-top: 15px;
   margin-left: 50px;
 }
+
+.tabbable-line > .nav-tabs > li.active > a {
+  font-size: 16px;
+}
+
+.tabbable-line > .nav-tabs > li > a {
+  font-size: 16px;
+}
