@@ -33,12 +33,60 @@
   <div class="row">
     <div class="col-sm-10 col-sm-offset-1">
       <div class="page-header clearfix">
-        <h4 class='pull-left'>Account Information</h4>
+        <div class='row'>
+          <div class='col-xs-6'>
+            <legend>Account Information</legend>
+            <p><b>Name:</b> User McKuser
+            <p><b>Membership:</b> Not A Member (<a href="#">Subscribe Today</a>)
+            <p><b>Membership:</b> Monthly (<a href="#">Edit Subscription</a>)
+            <p><b>Current Risk Profile:</b> <span class='text-warning'>Medium</span>
+          </div>
+          <div class='col-xs-6'>
+            <form>
+              <legend>Notification Settings</legend>
+              <label>Emails</label>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="" checked>
+                  Quarterly Advice
+                </label>
+              </div>
+              <div class="checkbox disabled">
+                <label>
+                  <input type="checkbox" value="" checked>
+                  Kivalia Newsletter
+                </label>
+              </div>
+              <br>
+              <label>Messages</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" value="option1" checked>
+                  Quarterly Email
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" value="option2">
+                  Quarterly Email
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" value="option3">
+                  Quarterly Email
+                </label>
+              </div>
+              <button class='btn btn-default pull-right'>Update Notifications</button>
+            </form>
+          </div>
+        </div>
+        <br>
       </div>
     </div>
     <div class='col-sm-10 col-sm-offset-1'>
       <div class="page-header clearfix">
-        <h4 class='pull-left'>Plans You Follow</h4>
+        <h3 class='pull-left'>Plans You Follow</h3>
         <table class="table table-striped">
             <tr>
                 <th><b>Employer</b></th>
