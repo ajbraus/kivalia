@@ -218,18 +218,28 @@ Licensed under MIT
 }
 .tabbable-line > .nav-tabs > li {
   margin-right: 2px;
-  font-size:20px;
-  min-width: 24%;
+  font-size:14px;
+    min-width: 11%;
   text-align: center;
 }
 .tabbable-line > .nav-tabs > li > a {
   border: 0;
   margin-right: 0;
   color: #737373;
+  background-color: inherit;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+  background-color: inherit;
 }
 .tabbable-line > .nav-tabs > li > a > i {
   color: #a6a6a6;
 }
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+
 .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
   border-bottom: 4px solid #fbcdcf;
 }
@@ -247,13 +257,6 @@ Licensed under MIT
 .tabbable-line > .nav-tabs > li.active {
   border-bottom: 4px solid #1899D0;
   position: relative;
-}
-.tabbable-line > .nav-tabs > li.active > a {
-  border: 0;
-  color: #333333;
-}
-.tabbable-line > .nav-tabs > li.active > a > i {
-  color: #404040;
 }
 .tabbable-line > .tab-content {
   margin-top: -3px;
@@ -306,16 +309,18 @@ table {
 }
 
 .input-form {
-  margin-top: 15px;
-  margin-left: 50px;
+  position: relative;
+  margin-top: 7px;
+  margin-left: 15px;
+  float:left;
 }
 
 .tabbable-line > .nav-tabs > li.active > a {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .tabbable-line > .nav-tabs > li > a {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .blue-row {
@@ -367,4 +372,16 @@ table {
   color: #777777;
   padding: 20px;
   margin: 0px;
+}
+
+.no-bottom {
+  border-bottom: none !important;
+}
+
+.premium {
+  background-color: #eee;
+}
+
+.ion-help-circled {
+  font-size: 140%;
 }
