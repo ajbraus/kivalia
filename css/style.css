@@ -219,7 +219,7 @@ Licensed under MIT
 .tabbable-line > .nav-tabs > li {
   margin-right: 2px;
   font-size:14px;
-    min-width: 11%;
+    min-width: 15%;
   text-align: center;
 }
 .tabbable-line > .nav-tabs > li > a {
@@ -388,4 +388,8 @@ table {
 
 .table.no-border td, .table.no-border th {
   border: none !important;
+}
+
+th {
+  font-weight: bold;
 }
