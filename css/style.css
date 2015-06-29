@@ -385,3 +385,7 @@ table {
 .ion-help-circled {
   font-size: 140%;
 }
+
+.table.no-border td, .table.no-border th {
+  border: none !important;
+}
