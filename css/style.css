@@ -305,7 +305,11 @@ table {
   background: white;
   width: 100%;
   border: 1px solid #eee;
-  padding: 40px 0;
+  padding: 25px 0;
+}
+
+.become-a-member .lead {
+  font-size:125%;
 }
 
 .input-form {

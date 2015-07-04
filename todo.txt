@@ -1,4 +1,4 @@
-make all responsive
+DONE make all responsive
 
 
 DONE customize navbar
