@@ -1,14 +1,5 @@
 make all responsive
 
-portfolio funds/recommended -> clean up tables
-New/Edit funds page
-Account page
-
-bar graph instead of pie chart
-safety lock
-
-advice email
-reminder email
 
 DONE customize navbar
 DONE portfolio page 
@@ -26,3 +17,7 @@ Intentionally not putting fb like and linkedin share buttons - these give a sens
 DONE subscribe to plan flow
 DONE membership flow
 
+
+DONE portfolio funds/recommended -> clean up tables
+DONE New/Edit funds page
+DONE Account page
