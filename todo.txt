@@ -1,5 +1,6 @@
-DONE make all responsive
+http-server -a localhost - localhost:8080
 
+DONE make all responsive
 
 DONE customize navbar
 DONE portfolio page 

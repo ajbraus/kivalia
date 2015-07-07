@@ -139,7 +139,7 @@ section.gray{
 }
 
 .report-background {
-  height:500px;
+  min-height:500px;
 }
 
 dl {
