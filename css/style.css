@@ -397,3 +397,9 @@ table {
 th {
   font-weight: bold;
 }
+
+.white a {
+  color:white;
+  position: relative;
+  top:10px;
+}
